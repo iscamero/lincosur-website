@@ -90,6 +90,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.img-border {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra blanca */
+}
+
 .navbar {
   /* background-color: var(--primary-color); */
   color: var(--contrast-color);
