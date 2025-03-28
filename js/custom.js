@@ -1,5 +1,6 @@
-// get current year
-(function () {
-    var year = new Date().getFullYear();
-    document.querySelector("#currentYear").innerHTML = year;
-})();
+
+fetch('footer.html')
+    .then(res => res.text())
+    .then(html => {
+        document.getElementById('footer').innerHTML = html;
+    });
